@@ -96,6 +96,9 @@ export class Topology {
 
   private scrolling = false;
   constructor(parent: string | HTMLElement, options?: Options) {
+
+    console.log(1234);
+
     Store.set('topology-data', this.data);
     this.options = options || {};
 

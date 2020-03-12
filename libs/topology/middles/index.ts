@@ -77,6 +77,7 @@ export const drawLineFns: any = {};
 export const drawArrowFns: any = {};
 
 function init() {
+  debugger;
   console.log('Init middles.');
 
   // ********Default nodes.*******
